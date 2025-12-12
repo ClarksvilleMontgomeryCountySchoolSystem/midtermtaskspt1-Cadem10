@@ -15,7 +15,7 @@ progress_in_milestone = current_followers % milestone_increment
 total_gained = current_followers - starting_followers
 daily_average = total_gained // days_tracked
 # Calculate projections
-days_to_milestone = (milestone_incrememnt - progress_in_milestone) // daily_average
+days_to_milestone = (milestone_increment - progress_in_milestone) // daily_average
 weekly_growth = daily_average * 7
 # Display results with f-strings
 print(f'Creator: {creator_name}')
